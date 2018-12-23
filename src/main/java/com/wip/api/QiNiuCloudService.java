@@ -50,7 +50,7 @@ public class QiNiuCloudService {
         // 华北 Zone.zone1()
         // 华南 Zone.zone2()
         // 北美 Zone.zoneNa0()
-        Configuration cfg = new Configuration(Zone.zone2());
+        Configuration cfg = new Configuration(Zone.zone1());
         // 其它参数参考类注释
         UploadManager uploadManager = new UploadManager(cfg);
 
